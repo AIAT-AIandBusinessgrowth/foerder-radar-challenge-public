@@ -55,6 +55,8 @@ AI Factory Austria steht für Chancengleichheit. Brauchst du Unterstützung oder
 | Kommunikation / Doku (README, Decision-Log, Walkthrough) | 15% |
 | Tests (sinnvolle Tests, kein Coverage-Theater) | 10% |
 
+> Teil B (Code-Review) fließt **nicht** in die obige Gewichtung ein — es ist ein **separates Signal** mit besonders hohem Informationsgehalt über dein Urteil zu KI-Code und kann bei knappen Entscheidungen den Ausschlag geben.
+
 ## Abgabe & Zeitplan
 
 - 🗓️ **Deadline:** 7 Kalendertage ab Erhalt dieses Briefs.
