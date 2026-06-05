@@ -1,5 +1,5 @@
 {
-  "_hinweis": "synthetisch / vereinfacht, Stand 2026-06 — keine offizielle AI:AT-Position",
+  "_hinweis": "synthetisch / vereinfacht, Stand 2026-06, keine offizielle AI:AT-Position",
   "programs": [
     {
       "name": "aws PreSeed – Innovative Solutions",
@@ -77,7 +77,7 @@
       "themen": ["Social Innovation", "Kulturinnovation", "Nachhaltigkeit"],
       "deadline_typ": "Call",
       "url": "https://www.ffg.at/foerderungen/impact-innovation",
-      "kurzbeschreibung": "Fördert nichttechnologische Innovationen mit gesellschaftlichem Mehrwert — z. B. in den Bereichen Soziales, Kultur und Nachhaltigkeit. Offen für Unternehmen aller Branchen."
+      "kurzbeschreibung": "Fördert nichttechnologische Innovationen mit gesellschaftlichem Mehrwert, z. B. in den Bereichen Soziales, Kultur und Nachhaltigkeit. Offen für Unternehmen aller Branchen."
     },
     {
       "name": "FFG Innovationsscheck",
@@ -108,7 +108,7 @@
     {
       "name": "FFG Bridge",
       "traeger": "FFG",
-      "zielgruppe": "Wissenschaft ↔ Wirtschaft",
+      "zielgruppe": "Wissenschaft und Wirtschaft",
       "stage": "alle",
       "region": "bundesweit",
       "max_summe": 300000,

@@ -1,5 +1,5 @@
 /**
- * filterByRegion — filtert Förderprogramme nach dem Bundesland des Antragstellers.
+ * filterByRegion: filtert Förderprogramme nach dem Bundesland des Antragstellers.
  *
  * Gibt alle Programme zurück, deren Region mit dem angegebenen Bundesland übereinstimmt.
  */
@@ -36,6 +36,6 @@ if (matches.length === 0) {
   console.log("  (keine Treffer)");
 } else {
   matches.forEach((p) => {
-    console.log(`  • ${p.name} [${p.region}] — max. €${p.max_summe.toLocaleString("de-AT")}`);
+    console.log(`  • ${p.name} [${p.region}], max. €${p.max_summe.toLocaleString("de-AT")}`);
   });
 }
