@@ -1,48 +1,44 @@
 # Förder-Radar: AI:AT Challenge
 
-Willkommen, schön, dass du dabei bist. In diesem Repo liegt alles, was du zum Loslegen brauchst: Aufgabenstellung, Daten und (für die Dev-Rolle) das Code-Snippet.
+Schön, dass du dabei bist. Dieses Repo enthält alles, was du zum Loslegen brauchst: Aufgabenstellung, Daten und (für die Dev-Rolle) das Code-Snippet.
 
-Das ist kein Trick-Test. Es ist ein kleines, echtes Stück Venture-Studio-Arbeit: mit KI schnell etwas Wertvolles bauen oder eine Idee auf Marktreife prüfen. Eine Musterlösung, die du treffen musst, gibt es nicht. Uns interessiert, wie du ein unscharf spezifiziertes Problem zerlegst, Entscheidungen triffst und KI sinnvoll einsetzt.
+> Das hier ist kein Trick-Test, sondern ein kleines, echtes Stück Venture-Studio-Arbeit: mit KI schnell etwas Wertvolles bauen bzw. eine Idee auf Marktreife prüfen. Es gibt keine Musterlösung, die du treffen musst. Wir schauen, wie du ein unscharf spezifiziertes Problem zerlegst, Entscheidungen triffst und KI sinnvoll einsetzt.
 
-## Das Szenario: Förder-Radar
+## Das Szenario: „Förder-Radar"
 
-Österreichische Startups und KMU verlieren Förderungen, weil die Landschaft (FFG, aws, EU, Bundesländer und mehr) undurchsichtig ist. Förder-Radar ist ein KI-Assistent, der ein Startup- oder KMU-Profil nimmt und in Sekunden zeigt, welche Förderungen passen und warum. Dazu draftet er einen ersten Antrags-Absatz.
+Österreichische Startups & KMU verlieren Förderungen, weil die Landschaft (FFG, aws, EU, Bundesländer) undurchsichtig ist. „Förder-Radar" ist ein KI-Assistent, der ein Startup-/KMU-Profil nimmt und in Sekunden zeigt, welche Förderungen passen und warum, und einen ersten Antrags-Absatz draftet.
 
 ## Wähle deine Challenge
 
-| Rolle | Worum es geht | Start hier |
+| Rolle | Worum geht's | Start hier |
 |---|---|---|
-| AI Developer | Bau den Förder-Radar-PoC plus ein kurzes Code-Review | [`dev/`](./dev/) |
-| AI Business Analyst & Venture Builder | Ist das ein Geschäft? Business Case plus Go-to-Market | [`business/`](./business/) |
+| **AI Developer** | Bau den Förder-Radar-PoC + ein kurzes Code-Review | 📂 [`dev/`](./dev/) |
+| **AI Business Analyst & Venture Builder** | Ist das ein Geschäft? Business Case + Go-to-Market | 📂 [`business/`](./business/) |
 
-Aus dem Gespräch mit uns weißt du, welche Rolle deine ist. Leg einfach im passenden Ordner los. Neugierig auf die andere Seite? Schau gern rein. Für deine Abgabe zählt nur dein Ordner.
+> Du weißt aus dem Gespräch mit uns, welche Rolle deine ist. Leg einfach im passenden Ordner los. Falls doch unklar, frag kurz per Mail nach. (Neugierig auf die andere Seite? Gern reinschauen, für deine Abgabe zählt nur dein Ordner.)
 
 ## Die Daten (`data/`)
 
-Beide Rollen arbeiten auf derselben Datengrundlage:
+Beide Rollen teilen sich dieselbe Datengrundlage:
 
-- [`data/programs.json`](./data/programs.json): rund 20 Förderprogramme (Felder dokumentiert in [`data/README.md`](./data/README.md))
-- [`data/programs.csv`](./data/programs.csv): dieselben Daten, bequem in Excel oder Sheets zu öffnen
-- [`data/examples/`](./data/examples/): zwei bis drei Beispiel-Profile als Ausgangspunkt
+- [`data/programs.json`](./data/programs.json): ~20 Förderprogramme (Felder dokumentiert in [`data/README.md`](./data/README.md))
+- [`data/programs.csv`](./data/programs.csv): dieselben Daten, bequem in Excel/Sheets zu öffnen
+- [`data/examples/`](./data/examples/): 2–3 Beispiel-Profile als Ausgangspunkt
 
-Das Dataset ist synthetisch und vereinfacht (Stand 2026-06) und keine offizielle AI:AT-Position. Domänenwissen brauchst du keines, alles steckt in den Daten.
+> ⚠️ Synthetisch / vereinfacht, Stand 2026-06, keine offizielle AI:AT-Position. Kein Domänenwissen nötig, die Programm-Daten sind selbsterklärend. *(Business-Rolle: die Markt-/Preis-Zahlen fürs Sizing stecken nicht in den Daten, die recherchierst du frei, siehe deinen Brief.)*
 
 ## Das Wichtigste in Kürze
 
-- **Aufwand:** rund 4–6 fokussierte Stunden. Du hast 7 Kalendertage ab Erhalt. Das Fenster ist für deine Flexibilität da, nicht zum Durchgrinden.
-- **KI:** Nutze jede KI, jede Library, google frei. Das erwarten wir, es ist nicht nur erlaubt.
-- **Abgabe:** per E-Mail an aiandbusinessgrowth@ai-at.eu. Abgabedatum und gegebenenfalls Upload-Link stehen in deiner Begleit-E-Mail.
+- **Aufwand:** ~4–6 fokussierte Stunden. Du hast 7 Kalendertage ab Erhalt; das Fenster ist für *Flexibilität*, nicht zum Durchgrinden.
+- **KI:** Nutze jede KI, jede Library, google frei. Das wird erwartet, nicht nur erlaubt.
+- **Abgabe:** per E-Mail an aiandbusinessgrowth@ai-at.eu. Für deinen Code bzw. deine Doku erstellst du ein eigenes Repo (z. B. `git init` in deinem Arbeitsordner, oder dieses Repo als Vorlage klonen und zu deinem GitHub/GitLab pushen) und schickst uns den Link. Die konkreten Daten (Abgabedatum, ggf. Upload-Link) stehen in deiner Begleit-E-Mail.
 - **Bewertung:** transparent. Die Gewichtung findest du in deinem Rollen-Brief.
-- **Eines vorweg:** Ein rauer Kern mit klarem Denken schlägt eine polierte, oberflächliche Umsetzung. Mehr Stunden bringen bei uns keine zusätzlichen Punkte.
+- **Wichtig:** Ein rauer Kern mit klarem Denken schlägt eine polierte, aber oberflächliche Umsetzung. Mehr Stunden bedeuten bei uns nicht mehr Punkte.
 
-## Fair und transparent
+## Fair & transparent
 
-AI Factory Austria steht für Chancengleichheit. Ob Uni, Bootcamp oder self-taught: es zählt, wie du denkst und mit KI arbeitest. Wenn du im Prozess Unterstützung oder Anpassungen brauchst, sag uns Bescheid.
+AI Factory Austria steht für Chancengleichheit. Ob Uni, Bootcamp oder self-taught, es zählt, *wie* du denkst und mit KI arbeitest. Brauchst du Unterstützung oder Anpassungen im Prozess, sag uns Bescheid. Die Challenge ist unbezahlt; dafür gibt es nach dem Debrief unsere eigene Lösung (mit echten Entscheidungen, Prompts und Trade-offs) und strukturiertes, ehrliches Feedback für jede:n. Kein Ghosting, nie.
 
-Die Challenge ist unbezahlt. Dafür bekommst du echten Gegenwert: Nach dem Debrief zeigen wir dir unsere eigene Lösung, mit echten Entscheidungen, Prompts und Trade-offs. Und jede Person bekommt strukturiertes, ehrliches Feedback, egal wie der Prozess ausgeht. Kein Ghosting.
+> Was du hier nicht findest, ist unsere eigene Referenzlösung. Die heben wir bewusst für den gemeinsamen Debrief auf, damit du frei und ohne Anchoring an die Aufgabe gehst.
 
-Was du hier bewusst nicht findest, ist unsere Referenzlösung. Die heben wir für den gemeinsamen Debrief auf, damit du ohne Anchoring an die Aufgabe gehst.
-
-Viel Erfolg, wir freuen uns auf deine Abgabe.
-
-AI:AT Hiring Team
+*AI:AT Hiring Team*
